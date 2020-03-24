@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/someshkoli/codegen-postman-dart#readme",
   "dependencies": {
+    "postman-collection": "^3.6.0",
     "postman-request": "^2.88.1-postman.22"
   }
 }
