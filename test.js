@@ -8,7 +8,7 @@ const option = {
         "User-Agent": 'postman-request'
     },
     body: new sdk.RequestBody({
-        raw: { "name": "somesh" },
+        raw: "name",
         mode: "raw",
         disabled :false
     }),
