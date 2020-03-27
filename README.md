@@ -1,4 +1,3 @@
-# codegen-postman-dart
 
 > Converts Postman-SDK Request into code snippet for .
 
@@ -22,7 +21,10 @@ Convert function takes three parameters
 
 ##### Example:
 ```js
-var request = new sdk.Request('www.google.com'),  //using postman sdk to create request  
+const sdk = require('postman-collections'),
+    convert = ('./').convert;  //using postman sdk to create request  
+
+var request = new sdk.Request('www.google.com'),
     options = {
         indentCount: 3,
         indentType: 'Space',
@@ -33,7 +35,8 @@ convert(request, options, function(error, snippet) {
     if (error) {
         //  handle error
     }
-    //  handle snippet
+    //handle snippet here
+    console.log(snippet);
 });
 ```
 ### Guidelines for using generated snippet
