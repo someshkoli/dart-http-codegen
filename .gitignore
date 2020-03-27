@@ -1,2 +1,5 @@
-/node_modules
-/.vscode
+node_modules/
+.vscode/
+.dart_tool/
+pubspec.yaml
+codesnippet.dart
